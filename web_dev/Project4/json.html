@@ -21,7 +21,7 @@ function ip_adress() {
       alert("IP_adress  "+myObj.ip);
     }
   };
-  xmlhttp.open("GET", "http://ip.jsontest.com/", true);
+  xmlhttp.open("GET", "https://ip.jsontest.com/", true);
   xmlhttp.send();
 }
 
@@ -33,7 +33,7 @@ function headers() {
       alert(JSON.stringify(myObj, null, 5));
     }
   };
-  xmlhttp.open("GET", "http://headers.jsontest.com/", true);
+  xmlhttp.open("GET", "https://headers.jsontest.com/", true);
   xmlhttp.send();
 }
 function date_time() {
@@ -44,7 +44,7 @@ function date_time() {
       alert("Date:  "+myObj.date + '      Time:   ' + myObj.time);
     }
   };
-  xmlhttp.open("GET", "http://date.jsontest.com", true);
+  xmlhttp.open("GET", "https://date.jsontest.com", true);
   xmlhttp.send();
 }
 
@@ -56,7 +56,7 @@ function echo_json() {
       alert(JSON.stringify(myObj, null, 5));
     }
   };
-  xmlhttp.open("GET", "http://echo.jsontest.com/key/value/Olenka/Pylypiv", true);
+  xmlhttp.open("GET", "https://echo.jsontest.com/key/value/Olenka/Pylypiv", true);
   xmlhttp.send();
 }
 function validation() {
@@ -67,7 +67,7 @@ function validation() {
       alert(JSON.stringify(myObj, null, 5));
     }
   };
-  xmlhttp.open("GET", ' http://validate.jsontest.com/?json={"key":"value", "Olenka":"Pylypiv"}', true);
+  xmlhttp.open("GET", ' https://validate.jsontest.com/?json={"key":"value", "Olenka":"Pylypiv"}', true);
   xmlhttp.send();
 }
 function arbitrary_js_code() {
@@ -78,7 +78,7 @@ function arbitrary_js_code() {
       alert(JSON.stringify(myObj, null, 5));
     }
   };
-  xmlhttp.open("GET", "http://code.jsontest.com/", true);
+  xmlhttp.open("GET", "https://code.jsontest.com/", true);
   xmlhttp.send();
 }
 
